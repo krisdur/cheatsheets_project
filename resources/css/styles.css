@@ -1,0 +1,68 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    min-width: 800px;
+    max-height: max-content;
+    overflow: scroll;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+table {
+    font-size: 18px;
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    height: 1.5em;
+}
+
+td{
+    font-size: 16px;
+    border: 1px solid rgba(218, 165, 32, 0.5);
+}
+tr .tag {
+    height: 3em;
+}
+
+span {
+    font-family: monospace;
+}
+#tag {
+    width: 7em;
+}
+
+#name {
+    width: 5em;
+}
+
+.tag {
+    font-family: monospace;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
